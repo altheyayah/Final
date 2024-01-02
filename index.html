@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <Header>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="Flex-con">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Professors.html">Professors</a>
+            <h1>MMSU - College of Industrial Technology</h1>
+            <img src="./images/CIT.png" alt="">
+        </div>
+    </Header>
+    
+    <div class="cit-first"><img src="/images/cit.jpg" alt=""></div>
+
+    
+<footer>
+        Copyright &copy; [Althea Vidad] - [2nd Year 2023]
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".flex-con");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
